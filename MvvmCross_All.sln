@@ -3868,7 +3868,7 @@ Global
 		{666EB95D-7CD8-48B6-A2F8-395DECC84140} = {2C0F302B-4AC8-4BC8-ABE9-C43C3CCB27E8}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Cirrious\Cirrious.MvvmCross.Droid.Maps\Cirrious.MvvmCross.Droid.Maps.csproj
+		StartupItem = TestingdevDroid\TestingdevDroid.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
