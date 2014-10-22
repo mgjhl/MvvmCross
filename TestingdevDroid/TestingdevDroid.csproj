@@ -113,10 +113,6 @@
       <Project>{2E89ED83-E5B6-4FAC-AD45-FC3B141DEA8C}</Project>
       <Name>Cirrious.MvvmCross.Droid.FullFragging</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Cirrious\Cirrious.MvvmCross.Droid.Maps\Cirrious.MvvmCross.Droid.Maps.csproj">
-      <Project>{674BEDBD-97CE-486D-8796-F3E35D8B24E6}</Project>
-      <Name>Cirrious.MvvmCross.Droid.Maps</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Plugins\Cirrious\FieldBinding\Cirrious.MvvmCross.FieldBinding\Cirrious.MvvmCross.FieldBinding.csproj">
       <Project>{64FAF565-E6CD-4C86-B965-DF228DEA61EB}</Project>
       <Name>Cirrious.MvvmCross.FieldBinding</Name>

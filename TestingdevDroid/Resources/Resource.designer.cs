@@ -189,11 +189,14 @@ namespace TestingdevDroid
 			// aapt resource value: 0x7f050007
 			public const int dialog_ValueField = 2131034119;
 			
+			// aapt resource value: 0x7f050010
+			public const int email_button = 2131034128;
+			
 			// aapt resource value: 0x7f05000f
 			public const int iFormFieldValue = 2131034127;
 			
-			// aapt resource value: 0x7f050010
-			public const int myButton = 2131034128;
+			// aapt resource value: 0x7f050011
+			public const int myButton = 2131034129;
 			
 			static Id()
 			{
