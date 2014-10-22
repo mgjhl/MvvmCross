@@ -37,7 +37,7 @@ namespace Cirrious.MvvmCross.Plugins.Email.Droid
             string body, bool isHtml, 
             IEnumerable<EmailAttachment> attachments)
         {
-            var emailIntent = new Intent(Intent.ActionSend);
+            var emailIntent = new Intent(Intent.ActionSendto);
 
             if (to != null)
                 emailIntent.PutExtra(Intent.ExtraEmail, to.ToArray() );
@@ -82,7 +82,8 @@ namespace Cirrious.MvvmCross.Plugins.Email.Droid
                 }
             }
 
-            StartActivity(emailIntent);
+            emailIntent.SetData(Android.Net.Uri.Parse("mailto:"));
+            StartActivity(Intent.CreateChooser(emailIntent, "Send email using:"));
         }
 
         public bool CanSendEmail
