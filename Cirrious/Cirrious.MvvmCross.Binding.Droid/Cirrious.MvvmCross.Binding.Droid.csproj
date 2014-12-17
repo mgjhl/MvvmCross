@@ -83,6 +83,7 @@
     <Compile Include="Target\MvxAutoCompleteTextViewPartialTextTargetBinding.cs" />
     <Compile Include="Target\MvxAutoCompleteTextViewSelectedObjectTargetBinding.cs" />
     <Compile Include="Target\MvxRadioGroupSelectedItemBinding.cs" />
+    <Compile Include="Target\MvxSearchViewQueryTextTargetBinding.cs" />
     <Compile Include="Target\MvxTextViewTextTargetBinding.cs" />
     <Compile Include="Target\MvxSeekBarProgressTargetBinging.cs" />
     <Compile Include="Target\MvxSpinnerSelectedItemBinding.cs" />
